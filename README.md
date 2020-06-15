@@ -23,7 +23,7 @@ Use the following optional architectural guidelines while refactoring and implem
 
 - Use a centralized git repository (GitHub, GitLab, BitBucket, etc...)
 - Use a CI/CD pipeline for your builds
-- Use a RESTful API for business rules and storing to a persistence layer
+- Use a RESTful API for business rules and storing to a persistence layer when the user story calls for it
 - Organize your application into appropriate domains and slice it into micro services
 - Use message queues, events, and services buses to pass information between services
 - Run your services in Docker containers
