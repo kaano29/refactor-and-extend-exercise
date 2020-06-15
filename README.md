@@ -17,6 +17,10 @@ Use the following practices and principles during this exercise.
 - SOLID
 - Clean Code
 - YAGNI
+- Automated testing
+- Stateful and Stateless components
+- Architect the solution into appropriate layers
+- Feature foldering (optional)
 
 ## Architectural Guidelines (Optional)
 
@@ -30,29 +34,21 @@ Use the following optional architectural guidelines while refactoring and implem
 - Run your services in Docker containers
 - Deploy the master branch of your application to a cloud host
 
-## Refactor Goals (Phase 1)
+## User Stories
 
-Refactor this code using the above listed principles to accomplish the following goals:
+Story point and prioritize these user stories:
 
-- Add the proper automated testing including:
-    - End to End Tests
-    - Integration Tests
-    - Unit Tests
-- Split the components into Stateful and Stateless components
-- Properly architect the solution into appropriate layers
-- Organgize the solution using feature foldering (optional)
-
-## Customer User Stories (Phase 2)
+### Customer User Stories
 
 - As a customer I want to see a validation message so that I know when a car is valid or invalid.
 - As a customer I want to see a message that tells me why a car is not valid so that I know why my submission is being rejected.
 - As a customer I want to be able to see information about the company I am submitting the car information to so that I know it is a legitimate business.
 - As a customer I want to be able to send the business owner a message so that I can ask a follow up quetstion if my car is accepted or rejected.
 - As a customer I want to see a history of the cars I have submitted to the form so that I don't submit a vehicle a second time.
-
-## Business Owner User Stories (Phase 3)
-
 - As the business owner I want to be able to accept specific models of vehicles along with their year and make so that I can accept a wider range of vehicles.
+
+### Business Owner User Stories
+ 
 - As the business owner I want to be able to know the colors of the vehicles being submitted to the form so that I can make better decisions about my inventory.
 - As the business owner I want to advertise my company logo on the landing page so that users will know they have come to the correct page.
 - As the business owner I want the color scheme of my logo to also be the color scheme of the website so that customers will have a better impression of the company in their mind.
