@@ -57,4 +57,6 @@ Story point, prioritize, then complete these user stories:
 
 ## Helpful Resources
 
+- [Kanban Board With Pre-written Stories](https://github.com/gSchool/refactor-and-extend-exercise.git)
 - [NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/)
+  
