@@ -51,7 +51,7 @@ Story point, prioritize, then complete these user stories:
 
 - As a customer I want to see a full inventory of vehicles the company owns so I can see if my car is already listed.
 - As a customer I want to see a history of the cars I have submitted to the form so that I don't submit a vehicle a second time.
-- As the business owner I want to be able to create new acceptance rules so that I can accept more types of vehicles.
+- As the business owner I want to be able to create new model and year acceptance rules through the website so that I can accept more types of vehicles.
 - As the business owner I want to see the value of each vehicle in my inventory so I can price the vehicles on my lot.
 - As a customer I want to see a message that tells me why a car is not valid so that I know why my submission is being rejected.
 - As a customer I want to be able to see information about the company I am submitting the car information to so that I know it is a legitimate business.
