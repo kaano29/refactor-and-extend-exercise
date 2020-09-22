@@ -66,7 +66,7 @@ Story point, prioritize, then complete these user stories:
 
 ## Helpful Resources
 
-- [Kanban Board With Pre-written Stories](https://github.com/gSchool/refactor-and-extend-exercise.git)
+- [Project Board With Pre-written Stories](https://github.com/gSchool/refactor-and-extend-exercise/projects/1)
 - [NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/)
 - [VIN Audit - Market Value API](https://www.vinaudit.com/vehicle-market-value-api)
   
