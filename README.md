@@ -5,6 +5,7 @@ This is the starter project for the refactor and extension exercise. Before you 
 - Filter out bad stories with INVEST criteria
 - Story point each story
 - Prioritize the user stories
+- (Optional) Refine the items under the Specifications section
 
 Once the stories have been properly refined your team will need to either fork this project into a new central repository, or copy the code in the App.js file into a new React template and post it to a central git repository.  This will serve as the starter project for the entire team.
 
@@ -82,6 +83,21 @@ Story point, prioritize, then complete these user stories:
 - As Laura I want to be able to remove acceptance rules so that I can stop accepting vehicles that are already in my inventory.
 - As Laura I want to be able to see a list of email addresses of customers who use the website so that I can send them a newsletter.
 - As Laura I want to be able to see a picture of the vehicle submitted by the customer so that I can manually reject a vehicle if it has damage.
+
+#### Specifications (Optional)
+
+Assume that someone has written the following specifications.  Determine if each item should be a practice for the team to implement, something that needs to be rewritten as a user story, or it is a technical task that should be associated with a user story.
+
+- Use Redux to manage the client side data.
+- As a developer I want to store a list of vehicles in a database so that my back end service can persist the vehicle data.
+- The application shall allow users to attach pictures of their vehicles with their vehicle submissions.
+- The VIN Audit API should be used to validate every vehicle VIN before accepting a user submission.
+- Update the tests in the back end to ensure a minimum of 90% test coverage.
+- The application shall allow users to export a list of vehicle inventory to Excel.
+- Use the Axios Javascript framework to connect the front end with the back end.
+- The back end service should not take more than 1 second to respond to a request from the front end.
+- When a user selects an date which their chosen vehicle wasn't made then the should get a message indicating their mistake.
+
 
 ## Helpful Resources
 
