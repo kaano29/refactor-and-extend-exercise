@@ -1,6 +1,6 @@
 # Refactor and Extension Exercise
 
-There are two starter projects for the refactor and extension exercise: One for [Java Spring](./Spring) and one for [Javascript React](./React). Before you and your team can begin refactoring and extending the one of the applications you will need to perform the following steps:
+This is the starter project for the refactor and extension exercise. Before you and your team can begin refactoring and extending the application you will need to perform the following steps:
 
 - Filter out bad stories with INVEST criteria
 - Story point each story
