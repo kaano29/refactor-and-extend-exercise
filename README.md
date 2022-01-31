@@ -12,6 +12,8 @@ Use the following optional architectural guidelines while refactoring and implem
 - Run your services in Docker containers
 - Deploy the master branch of your application to a cloud host
 
+## User Stories
+
 - I want to see a full inventory of vehicles the company owns so I can see if my car is already listed.
 - I want to see a history of the cars I have submitted to the form so that I don't submit a vehicle a second time.
 - I want to be able to create new model and year acceptance rules through the website so that I can accept more types of vehicles.
