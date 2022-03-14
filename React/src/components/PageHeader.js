@@ -3,23 +3,29 @@ import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstr
 import { Outlet, Link } from "react-router-dom";
 
 const PageHeader = () => (
-    <Navbar bg="dark" variant="dark" expand="lg">
-        <Container fluid>
-            <Navbar.Brand href="#">Car Manager</Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-                <Nav
-                    className="me-auto my-2 my-lg-0"
-                    style={{ maxHeight: '200px' }}
-                    navbarScroll
-                >
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/validateCar">Validate Car</Nav.Link>
-                    <Nav.Link href="/inventory">Inventory</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Container>
-    </Navbar>
+
+    <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+        <div className="container-fluid">
+            <Link className="navbar-brand" to="/">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/14-transportation-automotive/car-inspection.svg" alt="" width="30" height="24"></img>
+            </Link>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/validateCar">Validate Car</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/inventory">Inventory</Link>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 )
+
+
 
 export default PageHeader
